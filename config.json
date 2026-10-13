@@ -1,0 +1,9 @@
+{
+ "watchlist":{"MSFT":"Microsoft","NVDA":"Nvidia","GOOGL":"Alphabet","AMZN":"Amazon","META":"Meta","TSM":"TSMC","ASML":"ASML","AMD":"AMD","AVGO":"Broadcom","V":"Visa","MA":"Mastercard"},
+ "ir_domains":{"MSFT":"microsoft.com","NVDA":"investor.nvidia.com","GOOGL":"abc.xyz","AMZN":"ir.aboutamazon.com","META":"investor.atmeta.com","TSM":"investor.tsmc.com","ASML":"asml.com","AMD":"ir.amd.com","AVGO":"investors.broadcom.com","V":"investor.visa.com","MA":"investor.mastercard.com"},
+ "weights":{"fundamental":0.25,"valuation":0.20,"technical":0.20,"news":0.15,"momentum":0.10,"risk":0.10},
+ "history_period":"2y","news_days":7,"news_limit":10,"max_workers":4,"stop_atr_multiple":2.0,"reward_risk":2.0,
+ "deep_news":{"importance":70,"max_docs":3,"max_chars":14000,"cache_hours":24,"timeout":12,"model":"gemini-3.5-flash-lite"},
+ "earnings_risk":{"3":15,"7":8,"14":3},
+ "backtest":{"years":5,"top_n":2,"initial_huf":100000,"monthly_huf":20000,"cost_pct":0.001,"benchmark":"SPY"}
+}

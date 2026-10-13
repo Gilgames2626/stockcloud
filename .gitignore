@@ -1,0 +1,23 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Local environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Runtime-generated data
+cache.db
+cache.db-*
+data/*.db
+data/*.db-*
+output/*.csv
+output/*.json
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
